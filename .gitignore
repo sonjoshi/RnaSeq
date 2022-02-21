@@ -1,0 +1,6 @@
+.nextflow*
+work/*
+.cache/*
+.*.log*
+tmp/*
+SampleData1/*
