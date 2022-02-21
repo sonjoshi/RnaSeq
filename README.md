@@ -19,3 +19,8 @@ cd RnaSeq
 nextflow run main.nf
 ```
 
+To test using your own .fastq data files, give them as input like so
+```
+nextflow run main.nf --input_data="$PWD/SampleData1/*.fastq"
+```
+You will find the outputs of the fastqc and multiqc processes in the work directory.
